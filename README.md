@@ -10,7 +10,8 @@ import { LineChart } from 'react-native-nxnativemodule-example'; 导入组件
 
 就可以正常使用：
 
-```
+```=
+栗子🌰:
 
 class NativeModuleTest extends Component {
   render() {
