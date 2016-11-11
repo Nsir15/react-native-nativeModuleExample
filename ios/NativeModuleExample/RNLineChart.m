@@ -16,7 +16,7 @@
 - (void)drawRect:(CGRect)rect {
     [super drawRect:rect];
     PNLineChart * lineChart = [[PNLineChart alloc]initWithFrame:CGRectMake([_LineChartFrame[0] floatValue], [_LineChartFrame[1] floatValue], [_LineChartFrame[2] floatValue], [_LineChartFrame[3] floatValue])];
-    [lineChart setXLabels:_xlabel];
+    [lineChart setXLabels:_xLabel];
     lineChart.showCoordinateAxis = YES;
     lineChart.showYGridLines = YES;
     lineChart.yGridLinesColor = [UIColor orangeColor];

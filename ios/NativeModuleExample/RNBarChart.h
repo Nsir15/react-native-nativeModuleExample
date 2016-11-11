@@ -1,5 +1,5 @@
 //
-//  RNLineChart.h
+//  RNBarChart.h
 //  NativeModuleExample
 //
 //  Created by nx36950 on 2016/11/11.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RNLineChart : UIView
-@property (nonatomic ,strong) NSArray * LineChartFrame;
+@interface RNBarChart : UIView
+@property (nonatomic ,strong) NSArray * barChartFrame;
 @property (nonatomic ,strong) NSArray * xLabel;
-@property (nonatomic ,strong) NSArray * lineValues;
+@property (nonatomic ,strong) NSArray * barData;
 @end

@@ -14,6 +14,6 @@ export default class  RNLineChart extends Component {
 }
 RNLineChart.propTypes = {
   LineChartFrame:PropTypes.array,
-  xlabel:PropTypes.array,
+  xLabel:PropTypes.array,
   lineValues:PropTypes.array,
 };

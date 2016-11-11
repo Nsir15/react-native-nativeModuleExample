@@ -26,6 +26,8 @@
 		45B81FB41DD5A5EA00582E0A /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B81FA31DD5A5EA00582E0A /* UICountingLabel.m */; };
 		45B81FBA1DD5A64000582E0A /* RNLineChartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B81FB91DD5A64000582E0A /* RNLineChartManager.m */; };
 		45B81FBD1DD5A65600582E0A /* RNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B81FBC1DD5A65600582E0A /* RNLineChart.m */; };
+		45B8201B1DD5E1EA00582E0A /* RNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8201A1DD5E1EA00582E0A /* RNBarChart.m */; };
+		45B8201E1DD5E20C00582E0A /* RNBarChartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8201D1DD5E20C00582E0A /* RNBarChartManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +84,10 @@
 		45B81FB91DD5A64000582E0A /* RNLineChartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLineChartManager.m; sourceTree = "<group>"; };
 		45B81FBB1DD5A65600582E0A /* RNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLineChart.h; sourceTree = "<group>"; };
 		45B81FBC1DD5A65600582E0A /* RNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLineChart.m; sourceTree = "<group>"; };
+		45B820191DD5E1EA00582E0A /* RNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarChart.h; sourceTree = "<group>"; };
+		45B8201A1DD5E1EA00582E0A /* RNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarChart.m; sourceTree = "<group>"; };
+		45B8201C1DD5E20C00582E0A /* RNBarChartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarChartManager.h; sourceTree = "<group>"; };
+		45B8201D1DD5E20C00582E0A /* RNBarChartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarChartManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				45B81FB91DD5A64000582E0A /* RNLineChartManager.m */,
 				45B81FBB1DD5A65600582E0A /* RNLineChart.h */,
 				45B81FBC1DD5A65600582E0A /* RNLineChart.m */,
+				45B820191DD5E1EA00582E0A /* RNBarChart.h */,
+				45B8201A1DD5E1EA00582E0A /* RNBarChart.m */,
+				45B8201C1DD5E20C00582E0A /* RNBarChartManager.h */,
+				45B8201D1DD5E20C00582E0A /* RNBarChartManager.m */,
 			);
 			path = NativeModuleExample;
 			sourceTree = "<group>";
@@ -240,7 +250,9 @@
 				45B81FA51DD5A5EA00582E0A /* PNBarChart.m in Sources */,
 				45B81FA71DD5A5EA00582E0A /* PNCircleChart.m in Sources */,
 				45B81FA41DD5A5EA00582E0A /* PNBar.m in Sources */,
+				45B8201E1DD5E20C00582E0A /* RNBarChartManager.m in Sources */,
 				45B81FBD1DD5A65600582E0A /* RNLineChart.m in Sources */,
+				45B8201B1DD5E1EA00582E0A /* RNBarChart.m in Sources */,
 				45B81FB21DD5A5EA00582E0A /* PNScatterChartData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

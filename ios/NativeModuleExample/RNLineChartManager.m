@@ -11,7 +11,7 @@
 @implementation RNLineChartManager
 RCT_EXPORT_MODULE()
 RCT_EXPORT_VIEW_PROPERTY(LineChartFrame, NSArray)
-RCT_EXPORT_VIEW_PROPERTY(xlabel, NSArray)
+RCT_EXPORT_VIEW_PROPERTY(xLabel, NSArray)
 RCT_EXPORT_VIEW_PROPERTY(lineValues, NSArray)
 
 - (UIView *)view

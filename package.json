@@ -1,6 +1,6 @@
 {
   "name": "react-native-nxnativemodule-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "现在主要是折线图",
   "main": "index.js",
   "scripts": {
