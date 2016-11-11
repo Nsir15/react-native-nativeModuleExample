@@ -1,6 +1,8 @@
 使用方式：
 
-npm install react-native-nxnativemodule-example --save 
+
+>npm install react-native-nxnativemodule-example --save 
+
 rnpm link 
 
 
