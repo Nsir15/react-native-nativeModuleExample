@@ -3,7 +3,7 @@
 
 >npm install react-native-nxnativemodule-example --save 
 
-rnpm link 
+>rnpm link 
 
 
 然后在需要调用的JS 文件中：
